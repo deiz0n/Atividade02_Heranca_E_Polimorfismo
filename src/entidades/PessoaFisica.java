@@ -23,14 +23,18 @@ public class PessoaFisica extends TipoPessoa {
 
     @Override
     public Double taxa() {
-        if (getRendaAnual() < 20000.00) {
-            return getRendaAnual() * 0.15;
-        } else if (getRendaAnual() >= 2000.00) {
-            return getRendaAnual() * 0.20;
+        if (getGastosSaude() != 0.0) {
+            if (getRendaAnual() < 20000.00) {
+                return (getRendaAnual() * 0.15) - (getGastosSaude() * 0.5);
+            } else {
+                return (getRendaAnual() * 0.25) - (getGastosSaude() * 0.5);
+            }
+        } else {
+            if (getRendaAnual() < 20000.00) {
+                return (getRendaAnual() * 0.15) - (getGastosSaude() * 0.5);
+            } else {
+                return (getRendaAnual() * 0.25) - (getGastosSaude() * 0.5);
+            }
         }
-        if (getGastosSaude() >= 0.01) {
-            return gastosSaude / 2.0;
-        }
-        return taxa();
     }
 }

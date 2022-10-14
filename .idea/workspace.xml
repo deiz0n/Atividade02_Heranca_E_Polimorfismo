@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdf91092-a540-42e3-b551-ac504bd5db58" name="Changes" comment="Criação dos pacotes &quot;entidades&quot; e &quot;programa&quot;, junto com a criação da Super Classe &quot;TipoPessoa&quot;.">
-      <change afterPath="$PROJECT_DIR$/src/entidades/PessoaFisica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entidades/PessoaJuridica.java" afterDir="false" />
+    <list default="true" id="cdf91092-a540-42e3-b551-ac504bd5db58" name="Changes" comment="Criação das subClasses &quot;Pesssoa Física&quot; e &quot;Pessoa Jurídica&quot;.">
+      <change afterPath="$PROJECT_DIR$/src/programa/programa.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entidades/PessoaFisica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entidades/PessoaFisica.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,17 +33,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="entidades" />
@@ -57,7 +58,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665711532810</updated>
-      <workItem from="1665711534897" duration="3401000" />
+      <workItem from="1665711534897" duration="3711000" />
+      <workItem from="1665752079059" duration="36000" />
+      <workItem from="1665752137479" duration="4490000" />
     </task>
     <task id="LOCAL-00001" summary="Criação da Super Classe &quot;TipoPessoa&quot;">
       <created>1665712014744</created>
@@ -87,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665713868675</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Criação das subClasses &quot;Pesssoa Física&quot; e &quot;Pessoa Jurídica&quot;.">
+      <created>1665715115792</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1665715115792</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,6 +117,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Criação da Super Classe &quot;TipoPessoa&quot;" />
     <MESSAGE value="Criação dos pacotes &quot;entidades&quot; e &quot;programa&quot;, junto com a criação da Super Classe &quot;TipoPessoa&quot;." />
-    <option name="LAST_COMMIT_MESSAGE" value="Criação dos pacotes &quot;entidades&quot; e &quot;programa&quot;, junto com a criação da Super Classe &quot;TipoPessoa&quot;." />
+    <MESSAGE value="Criação das subClasses &quot;Pesssoa Física&quot; e &quot;Pessoa Jurídica&quot;." />
+    <option name="LAST_COMMIT_MESSAGE" value="Criação das subClasses &quot;Pesssoa Física&quot; e &quot;Pessoa Jurídica&quot;." />
   </component>
 </project>
