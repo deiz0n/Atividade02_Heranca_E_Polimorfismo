@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdf91092-a540-42e3-b551-ac504bd5db58" name="Changes" comment="Criação da Super Classe &quot;TipoPessoa&quot;">
-      <change beforePath="$PROJECT_DIR$/src/entidades/PessoaFisica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entidades/PessoaFisica.java" afterDir="false" />
-    </list>
+    <list default="true" id="cdf91092-a540-42e3-b551-ac504bd5db58" name="Changes" comment="Criação dos pacotes &quot;entidades&quot; e &quot;programa&quot;, junto com a criação da Super Classe &quot;TipoPessoa&quot;." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,7 +53,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665711532810</updated>
-      <workItem from="1665711534897" duration="1866000" />
+      <workItem from="1665711534897" duration="2248000" />
     </task>
     <task id="LOCAL-00001" summary="Criação da Super Classe &quot;TipoPessoa&quot;">
       <created>1665712014744</created>
@@ -71,7 +69,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665713139786</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Criação dos pacotes &quot;entidades&quot; e &quot;programa&quot;, junto com a criação da Super Classe &quot;TipoPessoa&quot;.">
+      <created>1665713773345</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1665713773345</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,6 +95,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Criação da Super Classe &quot;TipoPessoa&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Criação da Super Classe &quot;TipoPessoa&quot;" />
+    <MESSAGE value="Criação dos pacotes &quot;entidades&quot; e &quot;programa&quot;, junto com a criação da Super Classe &quot;TipoPessoa&quot;." />
+    <option name="LAST_COMMIT_MESSAGE" value="Criação dos pacotes &quot;entidades&quot; e &quot;programa&quot;, junto com a criação da Super Classe &quot;TipoPessoa&quot;." />
   </component>
 </project>
